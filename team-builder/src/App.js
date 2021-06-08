@@ -11,8 +11,6 @@ function App() {
 
   const addToTeam = e => {
     e.preventDefault()
-    console.log('submitting team members to state')
-    console.log(formData, "formData");
     const newTeamMember = {
       name: formData.name.trim(),
       email: formData.email.trim(),
